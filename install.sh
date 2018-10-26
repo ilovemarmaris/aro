@@ -26,7 +26,7 @@ wget -O arionum-gpu-miner.tar.gz "https://bitbucket.org/cryptogone/arionum-gpu-m
 # extract archive 
 tar xzvf arionum-gpu-miner.tar.gz
 
-worker="A01"
+worker=`hostname`
 pool="http://mine.arionumpool.com"
 wallet="3oBrsyMm6P7iwNrGd6yx9NXpWu4sdBKJjtASan9WKT3yKyhE3PjViyXcsy6GLzukGsLRTj5ixNKxXLnQkGEnSUXz"
 threads="3"
