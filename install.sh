@@ -14,7 +14,7 @@ fi
 nvidia-smi -pm 1
 
 # install required packages
-sudo apt-get -y install wget libcpprest libboost-all-dev ocl-icd-opencl-dev
+sudo apt-get -y install wget libcpprest libboost-all-dev
 
 # create a folder to put the miner in, and go inside it
 mkdir arion
