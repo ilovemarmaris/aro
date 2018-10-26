@@ -17,8 +17,8 @@ nvidia-smi -pm 1
 sudo apt-get -y install wget libcpprest libboost-all-dev ocl-icd-opencl-dev
 
 # create a folder to put the miner in, and go inside it
-mkdir arionum-gpu-miner
-cd arionum-gpu-miner
+mkdir arion
+cd arion
 
 # download latest binary archive, make sure that you use the correct url for your Ubuntu version (16, 17, 18 ...)
 wget -O arionum-gpu-miner.tar.gz "https://bitbucket.org/cryptogone/arionum-gpu-miner/downloads/arionum-gpu-miner-v1.5.1-ubuntu16-cuda9.0.tar.gz"
